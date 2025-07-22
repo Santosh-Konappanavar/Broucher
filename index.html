@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KAMLS-CON-2025</title>
+  <style>
+    :root {
+      --primary: #3D52A0;
+      --secondary: #7091E6;
+      --accent: #8697C4;
+      --bg-light: #EDE8F5;
+      --bg: #ADBBDA;
+      --text: #222;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--bg-light);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, var(--primary), var(--secondary));
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header em {
+      display: block;
+      margin-top: 5px;
+      font-style: italic;
+      color: #ddd;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 30px 20px;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      margin-top: -40px;
+      position: relative;
+      z-index: 10;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: var(--primary);
+      border-bottom: 3px solid var(--secondary);
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+      font-size: 1.6rem;
+    }
+
+    .highlight {
+      background: var(--bg);
+      padding: 20px;
+      border-radius: 12px;
+      color: #000;
+    }
+
+    ul {
+      margin-left: 20px;
+      padding-left: 20px;
+    }
+
+    .contact, .bank {
+      font-size: 0.95em;
+      margin-top: 15px;
+    }
+
+    .images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .images img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid var(--accent);
+    }
+
+    table.fee-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    table.fee-table th,
+    table.fee-table td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+
+    table.fee-table th {
+      background-color: var(--accent);
+      color: white;
+    }
+
+    img.qr {
+      max-width: 200px;
+      height: auto;
+      border: 2px solid var(--accent);
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+
+    .campus-img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      border: 3px solid var(--primary);
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>KAMLS-CON-2025</h1>
+    <p>33rd Annual Conference of Karnataka Medico-Legal Society ® Bengaluru</p>
+    <em>Theme: "What mind does not know eyes cannot see"</em>
+  </header>
+
+  <main>
+    <img src="./images/MBBS.jpeg" alt="SR Patil Medical College Campus" class="campus-img" />
+
+    <section>
+      <h2>Event Details</h2>
+      <div class="highlight">
+        <p>Date: 7th & 8th November 2025</p>
+        <p>Venue: S R Patil Medical College Campus, Hubli to Vijaypur Highway, Badagandi</p>
+        <p>Organized by: Department of Forensic Medicine & Toxicology</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Accommodation & Transport</h2>
+      <p>Delegates are advised to book their choice of hotel well in advance. College bus will be arranged by Conference committee morning & evening one round only.</p>
+      <ul>
+        <li>Kanthi Resorts – ₹3369+Taxes/day – 23.7 km – Contact: 9482101000</li>
+        <li>Haripriya Hotel – ₹2000 to ₹4700+Taxes – 28.7 km – Contact: 8095297111</li>
+        <li>Kailash Inn – ₹1900 to ₹4200+Taxes – 28.7 km – Contact: 09035607415 / 09972364616</li>
+        <li>Sangmeshwar Lodge – ₹1500 – 2 km – Contact: 6360470005</li>
+        <li>Hotel Gurudev, Kolhar UKP – 13.3 km</li>
+      </ul>
+      <p class="contact">Contact for Accommodation: Dr. Sangmesh (9945794094), Dr. Dharmaraya Ingale (9448406117), Mr. Veerbhadrappa (9743029791)</p>
+    </section>
+
+    <section>
+      <h2>Delegate Fee</h2>
+      <table class="fee-table">
+        <thead>
+          <tr><th>Category</th><th>Before 30 Sept</th><th>Oct 2025</th><th>Nov 2025</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Faculty</td><td>₹5000</td><td>₹6000</td><td>₹7000</td></tr>
+          <tr><td>Spouse</td><td>₹3000</td><td>₹3500</td><td>₹4000</td></tr>
+          <tr><td>PG</td><td>₹4000</td><td>₹4500</td><td>₹5000</td></tr>
+          <tr><td>UG Students</td><td colspan="3">₹3000 (till 31 Oct only)</td></tr>
+        </tbody>
+      </table>
+      <div class="bank">
+        <p>Bank Details: Canara Bank, Bilagi Branch – A/C: 120034313258 – IFSC: CNRB0004715</p>
+        <p>Scan the QR code below to pay:</p>
+        <img src="./images/qr.jpeg" alt="Bank QR Code" class="qr" />
+      </div>
+    </section>
+
+    <section>
+      <h2>Scientific Sessions</h2>
+      <div class="highlight">
+        <p><strong>Day 1</strong><br>
+        Registration, Oration, Guest Lectures, Scientific Sessions, KAMLS-GB Meeting, Banquet</p>
+        <p><strong>Day 2</strong><br>
+        PG & UG sessions, Guest Lecture, Quiz, Valedictory Function</p>
+        <p>Abstract submission:<br>
+        - Times New Roman, 12 pt, double spacing, max 250 words<br>
+        - Email to: <strong>kamlscon2025@gmail.com</strong> by 31st Oct 2025<br>
+        - Presentation: 6 min talk + 4 min discussion<br>
+        - Delegate registration mandatory for all presenters</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Organizing Committee</h2>
+      <ul>
+        <li><strong>Chief Patron:</strong> Sri S R Patil</li>
+        <li><strong>Patron:</strong> Sri M N Patil</li>
+        <li><strong>Co-Patron:</strong> Sri Ashok Dadmi, Raghvendra Patil</li>
+        <li><strong>Organizing Chairman:</strong> Dr. Dharmaraya Ingale</li>
+        <li><strong>Organizing Secretary:</strong> Dr. Somshekhar Pujar</li>
+        <li><strong>Treasurer:</strong> Dr. MA Bagali</li>
+        <li><strong>Committee Members:</strong> Registration – Dr. Vijay B Jatti, Dr. Nagesh Kuppast, etc.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Tourism Attractions</h2>
+      <p>Explore: Badami Caves, Alimatti Dam, Koodal Sangam, Golgumbaz, Shivagiri, Aihole, Pattadkal</p>
+      <div class="images">
+        <img src="./images/badami.jpeg" alt="Badami Caves" />
+        <img src="./images/almatti.jpeg" alt="Alimatti Dam" />
+        <img src="./images/koodal.jpeg    " alt="Koodal Sangam" />
+        <img src="./images/golgumbaz.jpeg" alt="Golgumbaz" />
+      </div>
+      <p>Don't forget to taste local delights like Bijapur Jolad rotti, Shanga Holige, and more!</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Dr. Dharmaraya Ingale – 9448406117 – dharmarayaingale49@gmail.com</p>
+      <p>Dr. Somashekhar Pujar – 9591908000</p>
+    </section>
+  </main>
+</body>
+</html>
